@@ -6,14 +6,15 @@
 body {
     font-family: "HK Grotesk", Arial;
     font-size: 36px;
-    line-height: 1.25;
+    line-height: 1.2;
     color: #333;
+    margin: 0;
 }
 
 h1 {
     font-size: 36px;
     font-family: "HK Grotesk", Arial;
-    line-height: 1.25;
+    line-height: 1.2;
     color: #333;
 }
 
@@ -21,7 +22,7 @@ header {
     position: fixed;
     left: 36px;
     top: 36px;
-
+    z-index: 1;
 }
 
 section {
@@ -47,6 +48,7 @@ div.square {
     position: absolute;
     top:50px;
     left: -50px;
+    
 }
 
 div.circle {
@@ -57,6 +59,7 @@ div.circle {
     bottom: 50px;
     right: -50px;
     position:absolute;
+    
 }
 
 div.content img{
@@ -98,4 +101,14 @@ section.s4 div.square{
 
 section.s4 div.circle{
     background-color: #5982a0;
+}
+
+div.progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 10px;
+    background-color: #333;
+    z-index: 1;
 }
